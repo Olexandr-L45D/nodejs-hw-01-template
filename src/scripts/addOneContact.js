@@ -4,8 +4,8 @@ import { writeContacts } from "../../utils/writeContacts.js";
 
 export const addOneContact = async () => {
     const contact = await readContacts();
-    const newСontact = createFakeContact();
-    await writeContacts([...contact, newСontact]);
+    const newContact = createFakeContact();
+    await writeContacts([...contact, newContact]);
 };
 
 addOneContact();
